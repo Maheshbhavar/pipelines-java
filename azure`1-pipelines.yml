@@ -5,11 +5,11 @@ pool:
   vmImage: ubuntu-latest
 
 stages:
- - stage: stage1
-   job:
-   - job: job1
-     steps:
-     - script: echo Hello, world!
-     - script: |
-          echo Add other tasks to build, test, and deploy your project.
-          echo See https://aka.ms/yaml
+- stage: stage1
+  job:
+  - job: job1
+    steps:
+    - script: echo Hello, world!
+    - script: |
+         echo Add other tasks to build, test, and deploy your project.
+         echo See https://aka.ms/yaml
